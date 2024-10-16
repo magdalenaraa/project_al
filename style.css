@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Merriweather", serif;
+    font-family: "DM Serif Display", serif;
     font-weight: 400;
 }
 
@@ -22,13 +22,15 @@
 }
 .top h1{
     font-size: 120px;
-    font-weight: 700;
+    font-weight: 400;
     color: #EEEBE3;
 }
 .top p{
-    font-weight: 400;
-    font-size: 24px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 300;
+    font-size: 18px;
     margin: 20px;
+    color: #EEEBE3;
 }
 .top a{
     text-decoration: none;
@@ -39,4 +41,32 @@
     padding: 14px 70px;
     border-radius: 50px;
     margin-top: 20px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.top a:hover{
+    background-color: #EEEBE3;
+    color: black;
+}
+
+.video-bg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .video-bg{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9){
+    .video-bg{
+        width: auto;
+        height: 100%;
+    }
 }
