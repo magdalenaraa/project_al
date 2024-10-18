@@ -149,45 +149,61 @@ section{
 }
 
 .buttons {
-    display: flex;
-	justify-content: center;
-	align-items: center;
-    margin-top: 30px;
+	margin: 6em auto;
+	max-width: 600px;
+	text-align: center;
 }
 
-.buttons .yes {
-    color: #222222;
-    position: relative;
-    text-decoration: none;
-    font-size: 16px;
-    border: 2px solid #222222;
-    padding: 15px 35px;
-    border-radius: 50px;
-    margin: 20px;
-    transition: 0.3s;
+.buttons em {
+	font-family: Georgia, Times New Roman, serif;
+	display: inline-block;
+	background-color: #eeebe3;
+	color: #222222;
+	width: 4.5em;
+	height: 4.5em;
+	padding: 1.5em;
+	border-radius: 50%;
+	position: relative;
+	z-index: 2;
+	margin: -1.5em -1em;
 }
 
-.buttons .yes:hover{
-    background-color: #222222;
-    color: #EEEBE3;
+.butt {
+	padding: 1em 3em;
+	background-color: #f6f6f6;
+	border-radius: 4px;
+	color: #222;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: .80em;
+	line-height: 2;
+	display: inline-block;
+	letter-spacing: .1em;
+    font-family: "Source Serif 4", serif;
+    font-weight: 500;
 }
 
-.buttons .no {
-    color: #222222;
-    position: relative;
-    text-decoration: none;
-    font-size: 16px;
-    border: 2px solid #222222;
-    padding: 15px 35px;
-    border-radius: 50px;
-    margin: 20px;
-    transition: 0.3s;
+.buttons .butt {
+	min-width: 245px;
 }
 
-.buttons .no:hover{
-    background-color: #222222;
-    color: #EEEBE3;
-}
+	.primary.butt {
+		background-color: #222222;
+		color: #eeebe3;
+	}
+
+		.primary.butt:hover {
+			background-color: #363636;
+		}
+
+	.secondary.butt {
+		background-color: #222222;
+		color: #eeebe3;
+	}
+
+		.secondary.butt:hover {
+			background-color: #363636;
+		}
 
 @media (max-width: 800px){
     .top{
