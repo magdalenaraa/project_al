@@ -13,7 +13,24 @@ img {
     padding: 10px;
   }
 
-a {
+  a{
     text-decoration: none;
-    
+    display: inline-block;
+    color: #222222;
+    font-size: 16px;
+    border: 2px solid #222222;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 500;
+    transition: 0.3s;
+}
+a:hover{
+    background-color:#222222;
+    color: #EEEBE3;
+}
+
+p {
+    padding: 0 80px 0
+    font-family: "Frank Ruhl Libre", serif;
 }

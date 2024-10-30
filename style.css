@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    position: relative;
 }
 
 html {
@@ -125,7 +126,6 @@ section{
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 90%;
     padding: 80px;
 }
 
@@ -213,9 +213,34 @@ section{
         position: relative;
     }
 
-    .playlist-tape {
-
+.bottom {
+        height: 777px;
+        width: 100%;
+        position: relative;
     }
+
+#playlist-tape {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+    position: relative;
+}
+
+#playlist-tape h1 {
+    text-align: center;
+    position: relative;
+    padding-top: 1200px;
+    font-size: 35px;
+    color: #222222;
+}
+
+#playlist-tape p {
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+    font-size: 18px;
+    color: #222222;
+}
 
 @media (max-width: 800px){
     .top{
@@ -278,4 +303,10 @@ section{
         margin-top: 0;
     }
 
+}
+
+@media (max-width: 1024px) {
+    .playlist-tape h1 {
+        padding-top: 1500px;
+    }
 }
