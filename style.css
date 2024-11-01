@@ -113,7 +113,7 @@ section{
 .quote-wrapper p {
     text-align: center;
     line-height: 2;
-    color: #EEEBE3;
+    color: #E4CCFC;
     font-family: "Source Serif 4", serif;
     font-style: italic;
     font-weight: 500;
@@ -121,7 +121,7 @@ section{
 }
 
 .message {
-    background-color: #EEEBE3;
+    background-color: #E4CCFC;
     min-height: 633px; max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
@@ -248,8 +248,8 @@ section{
 
 .tape-casette img {
     margin-top: 20px;
-    pointer-events: none;
-   transition-timing-function: ease in;
+    pointer-events: ease in;
+	transition-timing-function: ease in;
     transition-duration: .3s;
     cursor: pointer;
 }
