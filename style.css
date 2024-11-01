@@ -12,7 +12,7 @@ html {
 body{
     font-family: "Georgia", serif;
     font-weight: 400;
-    background-color: #e6d2fa;
+    background-color: #E6D2FA;
 
 section{
     display: flex;
@@ -55,7 +55,7 @@ section{
     margin-bottom: 25px;
     font-size: 65px;
     font-weight: 400;
-    color: #e6d2fa;
+    color: #E6D2FA;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     font-family: "DM Serif Display", serif;
 }
@@ -64,7 +64,7 @@ section{
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 20px;
-    color: #e6d2fa;
+    color: #E6D2FA;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 .top a{
@@ -80,7 +80,7 @@ section{
     transition: 0.3s;
 }
 .top a:hover{
-    background-color: #e6d2fa;
+    background-color: #E6D2FA;
     color: #2C1642;
 }
 
@@ -113,7 +113,7 @@ section{
 .quote-wrapper p {
     text-align: center;
     line-height: 2;
-    color: #e6d2fa;
+    color: #E6D2FA;
     font-family: "Source Serif 4", serif;
     font-style: italic;
     font-weight: 500;
@@ -121,7 +121,7 @@ section{
 }
 
 .message {
-    background-color: #2C1642;
+    background-color:#E6D2FA;
     min-height: 633px; max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
@@ -140,7 +140,7 @@ section{
     margin-top: 10px;
     text-align: justify;
     font-size: 18px;
-    color: #2C1642;
+    color: #E6D2FA;
 }
 
 .message blockquote {
