@@ -254,7 +254,7 @@ section{
     cursor: pointer;
 }
 .tape-casette:hover img {
-    transform: rotate(-361deg) scale(1.1) translateZ(0);
+    transform: rotate(-30deg) scale(1.1) translateZ(0);
     -webkit-filter: drop-shadow(0 10px 10px  rgba(32, 32, 32, 0.7));
     filter: drop-shadow(0 10px 10px rgba(32, 32, 32, 0.7));
 }
