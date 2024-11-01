@@ -249,12 +249,11 @@ section{
 .tape-casette img {
     margin-top: 20px;
     pointer-events: none;
-    transition-property: transform;
+    transition-property: transition-timing-function;
     transition-duration: .3s;
     cursor: pointer;
 }
 .tape-casette:hover img {
-	transition-timing-function: steps(4, jump-end);
 	transition-timing-function: cubic-bezier(0.1, 0.7, 1, 0.1);
     -webkit-filter: drop-shadow(0 10px 10px  rgba(32, 32, 32, 0.7));
     filter: drop-shadow(0 10px 10px rgba(32, 32, 32, 0.7));
