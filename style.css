@@ -37,7 +37,7 @@ section{
     position: relative;
     justify-content: center;
     min-height: 100vh;
-    color: #EEEBE3;
+    color: #2C1642;
     text-align: center;
 }
 
@@ -94,7 +94,6 @@ section{
 }
 
 #content {
-	background-color: #E4CCFC;
     width: 90%;
     max-width: 1024px;
     margin: 0 auto;
@@ -122,7 +121,7 @@ section{
 }
 
 .message {
-    background-color: #E4CCFC;
+    background-color: #2C1642;
     min-height: 633px; max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
