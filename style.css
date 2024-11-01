@@ -221,7 +221,7 @@ section{
     }
 
 #playlist-tape {
-color: #2C1642;
+color: #E6D2FA;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -232,7 +232,7 @@ color: #2C1642;
     position: relative;
     padding-top: 1260px;
     font-size: 35px;
-    color: #2C1642;
+    color: #E6D2FA;
 }
 
 #playlist-tape p {
@@ -240,7 +240,7 @@ color: #2C1642;
     position: relative;
     padding-top: 20px;
     font-size: 18px;
-    color: #2C1642;
+    color: #E6D2FA;
 }
 
 .tape-casette {
@@ -260,8 +260,8 @@ color: #2C1642;
 }
 
 .footer {
-	color: #2C1642;
-    padding-top: 50px; padding-bottom: 30px;
+	color: #E6D2FA;
+    padding-top: 50px;padding-bottom: 30px;
 }
 
 @media (max-width: 800px){
