@@ -121,7 +121,7 @@ section{
 }
 
 .message {
-    background-color: #E4CCFC;
+    background-color: #2C1642;
     min-height: 633px; max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
@@ -221,7 +221,7 @@ section{
     }
 
 #playlist-tape {
-	color: #E4CCFC;
+	color: #2C1642;
     position: relative;
     align-items: center;
     justify-content: center;
@@ -232,7 +232,7 @@ section{
     position: relative;
     padding-top: 1260px;
     font-size: 35px;
-    color: #222222;
+    color: #2C1642;
 }
 
 #playlist-tape p {
@@ -240,7 +240,7 @@ section{
     position: relative;
     padding-top: 20px;
     font-size: 18px;
-    color: #222222;
+    color: #2C1642;
 }
 
 .tape-casette {
@@ -260,7 +260,9 @@ section{
 }
 
 .footer {
+	color: #2C1642;
     padding-top: 50px;
+	padding-bottom: 30px;
 }
 
 @media (max-width: 800px){
