@@ -12,7 +12,7 @@ html {
 body{
     font-family: "Georgia", serif;
     font-weight: 400;
-    background-color: #2C1642;
+    background-color: #e6d2fa;
 
 section{
     display: flex;
@@ -37,7 +37,7 @@ section{
     position: relative;
     justify-content: center;
     min-height: 100vh;
-    color: #2C1642;
+    color: #e6d2fa;
     text-align: center;
 }
 
@@ -55,7 +55,7 @@ section{
     margin-bottom: 25px;
     font-size: 65px;
     font-weight: 400;
-    color: #2C1642;
+    color: #e6d2fa;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
     font-family: "DM Serif Display", serif;
 }
@@ -64,7 +64,7 @@ section{
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 20px;
-    color: #2C1642;
+    color: #e6d2fa;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
 }
 .top a{
@@ -80,7 +80,7 @@ section{
     transition: 0.3s;
 }
 .top a:hover{
-    background-color: #2C1642;
+    background-color: #e6d2fa;
     color: #2C1642;
 }
 
@@ -113,7 +113,7 @@ section{
 .quote-wrapper p {
     text-align: center;
     line-height: 2;
-    color: #2C1642;
+    color: #e6d2fa;
     font-family: "Source Serif 4", serif;
     font-style: italic;
     font-weight: 500;
