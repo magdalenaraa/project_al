@@ -121,7 +121,7 @@ section{
 }
 
 .message {
-    background-color: #2C1642;
+    background-color: #E4CCFC;
     min-height: 633px; max-width: 1024px;
     margin-left: auto;
     margin-right: auto;
@@ -214,7 +214,7 @@ section{
     }
 
 .bottom {
-	color: #2C1642;
+	color: #E4CCFC;
         height: 777px;
         width: 100%;
         position: relative;
