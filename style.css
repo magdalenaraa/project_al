@@ -70,7 +70,7 @@ section{
 .top a{
     text-decoration: none;
     display: inline-block;
-    color: #EEEBE3;
+    color: #2C1642;
     font-size: 20px;
     border: 2px solid #EEEBE3;
     padding: 15px 35px;
@@ -81,7 +81,7 @@ section{
 }
 .top a:hover{
     background-color: #2C1642;
-    color: #222222;
+    color: #2C1642;
 }
 
 .mid{
@@ -159,7 +159,7 @@ section{
 	font-family: Georgia, Times New Roman, serif;
 	display: inline-block;
 	background-color: #eeebe3;
-	color: #222222;
+	color: #2C1642;
 	width: 4.5em;
 	height: 4.5em;
 	padding: 1.5em;
@@ -190,7 +190,7 @@ section{
 }
 
 	.primary.butt {
-		background-color: #222222;
+		background-color: #2C1642;
 		color: #eeebe3;
 	}
 
@@ -204,7 +204,7 @@ section{
 	}
 
 		.secondary.butt:hover {
-			background-color: #434343;
+			background-color: #2C1642;
 		}
     
     .bottom {
@@ -261,8 +261,7 @@ color: #2C1642;
 
 .footer {
 	color: #2C1642;
-    padding-top: 50px;
-	padding-bottom: 30px;
+    padding-top: 50px; padding-bottom: 30px;
 }
 
 @media (max-width: 800px){
